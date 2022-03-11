@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(back.jpg);
+    height: 70vh;
+}
+
+.time {
+    color: cyan;
+    border: 20px solid rgb(206, 10, 245);
+    border-radius: 105px;
+    margin-top: 40px;
+    margin-left: 100px;
+    box-shadow: 5px 5px 30px 30px rgb(253, 0, 118);
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    text-shadow: 5px 0 0 rgb(255, 0, 179);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+}
+
+.title {
+    border: 15px solid rgb(10, 48, 153);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 20px cyan;
+    font-family: Verdana, Geneva, Tahoma, serif;
+    font-size: 7rem;
+    text-shadow: 10px 0 0 yellow;
+    margin-top: 100px;
+    margin-left: 160px;
+    color: rgb(199, 17, 190);
+    text-align: center;
+    width: 85%;
+    letter-spacing: 0.5rem;
+}
+.title2
+{
+    font-family: Verdana, Geneva, Tahoma, serif;
+    font-size: 2rem;
+    text-shadow: 2px 0 0 rgb(0, 255, 42);
+    margin-top: 40px;
+    margin-left: 160px;
+    color: rgb(9, 124, 34);
+    text-align: center;
+    width: 85%;
+    letter-spacing: 0.5rem;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    margin-top: 200px;
+    border: 1px solid darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.box1 {
+    background-color: darkgoldenrod;
+}
+
+.box2 {
+    position: absolute;
+    background-color: darkmagenta;
+    font-family: BhuTuka Expanded One;
+    font-size: 1.5rem;
+}
+
+.box3 {
+    background-color: darkslategray;
+}
+
+.box2:hover {
+    background-color: rgb(236, 10, 10) !important;
+    cursor: pointer;
+}
+
+.row 
+{
+    display: flex ;
+    justify-content: space-around;
+}
